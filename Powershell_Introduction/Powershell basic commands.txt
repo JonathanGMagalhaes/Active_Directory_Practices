@@ -1,0 +1,57 @@
+Step01 
+
+Start-Transcript = What is PowerShell start-transcript?
+Month of PowerShell - Recording Your Session with Start ...
+The Start-Transcript cmdlet creates a record of all or part of a PowerShell session to a text file. The transcript includes all command that the user types and all output that appears on the console.
+
+Step02
+
+Get-Command *-AD* = look for commands by the inicials inserted, *-AD* will find all active directors commando from powershell.
+
+Step03
+
+Get-Alias = Will show you all the alias comands coming from CMD-DOS and others.
+
+Step04
+
+$ = You can create variables using the dolar simbol.
+
+Step05, Step06, Step07
+
+Get-Help = How do I get the help script file in PowerShell?
+To get help for a Windows PowerShell command, type `Get-Help` followed by the command name, such as: `Get-Help Get-Process`. To get a list of all help topics on your system, type `Get-Help *`.
+
+Step08
+
+Import-Module ActiveDirectory = Import the essencial modules for active directory on power shell.
+
+Step09
+
+Get-ADUser -Identity 'Administrator' = find the user by name.
+
+Step10
+
+Get-ADUser -Filter {Name -eq 'Administrator'} = Find the user also.
+
+Step11
+
+Get-ADUSer -filter {ObjectGUID -eq 'fea675be-6a71-4299-8d3c-3a6881d5a6f3'} = Find the user by objectGUID.
+
+Step12
+
+Get-ADUser -Identity 'Administrator' -Properties Description = Find the user by description.
+
+Step13
+
+Set-ADUser "jonathan.magalhaes" -EmailAddress "jonathanmundi@gmail.com" = Set the email for the user.
+
+Step14
+
+Get-History = See all comands that were used for you.
+
+
+
+
+
+
+
